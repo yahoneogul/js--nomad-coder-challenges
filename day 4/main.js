@@ -6,7 +6,7 @@
   body.appendChild(h2);
 
   body.style.height = "100vh";
-  body.style.backgroundColor = "#914EAD";
+  body.style.backgroundColor = "#05c46b";
   h2.style.color = "#ffffff";
 
   const resizeHandler = () => {
