@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+.range-controller {
+  padding: 40px 0;
+}
+.range-input {
+  width: 200px;
+}
+
+label:after {
+  content: ":";
+  display: inline;
+  margin: 0 3px;
+}
+
+.result span {
+  display: block;
+  margin-top: 5px;
+}

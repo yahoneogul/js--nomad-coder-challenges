@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Random Number</title>
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <h2>
+      Generate a number between 0 and <span class="range-number-span"></span>
+    </h2>
+    <div class="range-controller">
+      <input
+        class="range-input"
+        type="range"
+        min="0"
+        max="200"
+        list="tickmarks"
+      />
+      <datalist id="tickmarks">
+        <option value="50"></option>
+        <option value="100"></option>
+        <option value="150"></option>
+        <option value="200"></option>
+      </datalist>
+    </div>
+    <form class="submit-form" action="">
+      <label for="submitInput">Guess the Number</label>
+      <input type="number" id="submitInput" />
+      <button class="submit-btn" type="submit">Play!</button>
+    </form>
+    <div class="result">
+      <span class="chose-number"></span>
+      <span class="win-or-lose"></span>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
